@@ -6,7 +6,11 @@
   "repository": "https://github.com/kschrade/plugin-testing.git",
   "author": "Kyle Schrade <kyleschrade2@gmail.com>",
   "license": "MIT",
+  "scripts":{
+    "test": "jest ./tests.test.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^24.8.0"
   }
 }
