@@ -1,0 +1,12 @@
+{
+  "name": "plugin-testing",
+  "version": "1.0.0",
+  "description": "testing some github plugins",
+  "main": "index.js",
+  "repository": "https://github.com/kschrade/plugin-testing.git",
+  "author": "Kyle Schrade <kyleschrade2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
