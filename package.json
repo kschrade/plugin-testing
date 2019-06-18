@@ -7,7 +7,8 @@
   "author": "Kyle Schrade <kyleschrade2@gmail.com>",
   "license": "MIT",
   "scripts":{
-    "test": "jest ./tests.test.js"
+    "test": "jest ./tests.test.js",
+    "build": "node ./index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
