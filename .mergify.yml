@@ -2,7 +2,7 @@ pull_request_rules:
   - name: automatic merge on CI success and review
     conditions:
       - label=automerge
-      - 'status-success=ci/circleci'
+      - 'status-success=ci/circleci: build'
     actions:
       merge:
         method: squash
