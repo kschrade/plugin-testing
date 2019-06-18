@@ -4,4 +4,4 @@
 
 repo for testing plugins
 
-testing the ci
+testing the ci and deleting branches
